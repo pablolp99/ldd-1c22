@@ -6,3 +6,7 @@ matplotlib
 seaborn
 jupyterlab
 gensim
+transformers
+spacy
+torch
+bert-embedding
