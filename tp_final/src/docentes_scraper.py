@@ -10,7 +10,7 @@ if __name__ == "__main__":
 
     options.add_argument("start-maximized")
     options.add_argument("enable-automation")
-    options.add_argument("--headless")
+    # options.add_argument("--headless")
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-infobars")
     options.add_argument("--disable-dev-shm-usage")
@@ -32,8 +32,6 @@ if __name__ == "__main__":
             idx = i + j * 40
             docentes[idx] = dict()
             docentes[idx][e.text] = e.get_attribute("href")
-
-            breakpoint()
 
         print(j, len(docentes.keys()))
 
